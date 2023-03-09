@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-82kp
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:UBTk3-devfile-sample-82kp
+      - image: quay.io/redhat-appstudio/user-workload@sha256:318148518f42922bf02110e293bdafe53053e64fd0cae4593a77e81d3933ffc1
         name: my-nodejs
         ports:
         - containerPort: 3001
