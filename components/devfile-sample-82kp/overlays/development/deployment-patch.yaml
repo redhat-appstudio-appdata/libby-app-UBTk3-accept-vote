@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-82kp
+  namespace: beaumorley-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:318148518f42922bf02110e293bdafe53053e64fd0cae4593a77e81d3933ffc1
+        name: my-nodejs
+        resources: {}
+status: {}
